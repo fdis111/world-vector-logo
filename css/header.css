@@ -1,0 +1,91 @@
+/* header style */
+header{
+    background-image: -webkit-linear-gradient(0deg, #2f25b8 0%, #0c5bba 100%);
+    color: white;
+}
+
+.header__top-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: 1px solid rgba(10, 32, 112, .2);
+}
+.top-navigation-menu ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.top-navigation-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.8);
+    letter-spacing: 0.165em;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+}
+.top-navigation-menu ul li a:hover{
+    color: white;
+}
+
+.top-navigation-menu ul li a .fa-facebook-square{
+    font-size: 20px;
+}
+
+.top-navigation-add-boutton{
+    background-color: #21c466;
+    color: white;
+}
+.fa-plus{
+    font-size: 13px;
+}
+.top-navigation-user{
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1795ec;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+
+
+
+
+.search-bar{
+    padding: 20px 0;
+}
+.search-bar  form{
+    display: flex;
+    justify-content: center;
+}
+.search-bar  form > div input{
+    appearance: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 15px 20px;
+    color: #333;
+    border: 0;
+    height: 49px;
+    border: none;
+    font-size: 14px;
+    width: 520px;
+}
+.search-bar  form > div input:focus{
+    outline: none;
+}
+input[type="search"]::-webkit-search-cancel-button{
+    display: none;
+}
+.search-bar  form > div button{
+    padding: 17px 20px;
+    margin: 0;
+    border: none;
+    background-color: #21c466;
+    color: white;
+}

@@ -1,0 +1,43 @@
+@font-face{
+    font-family: 'open sans regular';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
+@font-face{
+    font-family: 'open sans bold';
+    src: url('../fonts/Open_Sans/OpenSans-Bold.ttf');
+}
+@font-face{
+    font-family: 'open sans light';
+    src: url('../fonts/Open_Sans/OpenSans-Light.ttf');
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'open sans light';
+    font-size: 11px;
+    background-color: #EBEEF1;
+}
+i{
+    font-style: normal;
+}
+
+.bold{
+    font-family: 'open sans bold';
+    font-weight: normal;
+}
+.button{
+    padding: 14px 22px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 0.165em;
+    cursor: pointer;
+    margin-right: 0;
+    border: none;
+    border-radius: 3px;
+}

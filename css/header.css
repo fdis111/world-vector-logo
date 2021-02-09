@@ -28,6 +28,9 @@ header{
     background-color: var(--medium-sea-green);
     color: white;
 }
+.top-navigation-add-boutton:hover{
+    background-color: var(--pigment-green);
+}
 .fa-plus{
     font-size: 13px;
 }
@@ -42,6 +45,9 @@ header{
     font-size: 14px;
 }
 
+.top-navigation-user:hover{
+    background-color: var(--navy-blue-teal);
+}
 
 
 
@@ -79,4 +85,6 @@ input[type="search"]::-webkit-search-cancel-button{
     color: white;
 }
 
-
+.search-bar  form > div button:hover{
+    background-color: var(--pigment-green);
+}

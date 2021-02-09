@@ -69,3 +69,6 @@
     color: var(--white);
     margin-bottom: 20px;
 }
+.more-boutton:hover{
+    background-color: var(--egyptian-blue);
+}

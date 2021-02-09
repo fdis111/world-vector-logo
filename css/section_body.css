@@ -14,7 +14,7 @@
     line-height: 1.3em;
     text-transform: initial;
     text-align: center;
-    color: #616f8d;
+    color: var(--cadet-blue);
     margin-bottom: 71px;
 }
 
@@ -28,14 +28,14 @@
     text-decoration: none;
 }
 .card{
-    background-color: white;
+    background-color: var(--white);
     border-radius: 5px;
     margin-bottom: 15px;
 }
 
 .card-img{
     padding: 20px;
-    border-bottom: 1pt solid #dcdfe6;
+    border-bottom: 1pt solid var(--ligth-gray);
     display: flex;
     justify-content: center;
 }
@@ -46,8 +46,7 @@
 
 .card-title h2{
     text-align: center;
-    
-    color: #737b87;
+    color: var(--teal);
     padding: 10px 5px 12px;
     font-size: 12px;
     text-align: center;
@@ -57,7 +56,7 @@
     text-overflow: ellipsis;
 }
 .content-latest-downloads h3{
-    color: #a1a8b0;
+    color: var(--medium-cya);
     text-transform: uppercase;
     font-weight: 700;
     font-size: 14px;
@@ -65,11 +64,8 @@
     line-height: 1.4;
     margin-bottom: 20px;
 }
-.more{
-    display: flex;
-    justify-content: center;
-}
 .more-boutton{
-    background-color: #0c5bba;
-    color: white;
+    background-color: var(--persian-blue);
+    color: var(--white);
+    margin-bottom: 20px;
 }

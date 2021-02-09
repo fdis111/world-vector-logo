@@ -1,3 +1,13 @@
+:root{
+    --white: #fff;
+    --ligth-gray: #EBEEF1;
+    --dodger-blue: #1795ec;
+    --medium-sea-green: #21c466;
+    --teal: #747d87;
+    --persian-blue: #0c5bba;
+    --medium-cya: #a1a8b0;
+    --cadet-blue: #616f8d;
+}
 @font-face{
     font-family: 'open sans regular';
     src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
@@ -18,7 +28,7 @@
 body{
     font-family: 'open sans light';
     font-size: 11px;
-    background-color: #EBEEF1;
+    background-color: var(--ligth-gray);
 }
 i{
     font-style: normal;
@@ -40,4 +50,30 @@ i{
     margin-right: 0;
     border: none;
     border-radius: 3px;
+    outline: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list-itm{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+}
+.list-itm-link{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.165em;
+    line-height: 1;
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'open sans bold';
 }
